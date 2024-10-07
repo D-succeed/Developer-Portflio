@@ -1,0 +1,162 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Technical Document Page</title>
+  </head>
+  <body id="body">
+    <nav id="navbar">
+      <header><strong>Optimizing Website Performance</strong></header>
+      <ul>
+        <li>
+          <a class="nav-link" href="#Optimizing_Website_Performance"><strong>Optimizing Website Performance</a>
+        <li>
+          <a class="nav-link" href="#Introduction">Introduction</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Front-End_Optimization">Front-End Optimization</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Server-Side_Optimization">Server-Side Optimization</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Scalability_Considerations">Scalability Considerations</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Monitoring_and_Testing">Monitoring and Testing</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Conclusion">Conclusion</strong></a>
+        </li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Optimizing_Website_Performance">
+        <header><strong>Optimizing Website Performance</strong></header>
+        <article>
+          <p>This document will cover various techniques and best practices to improve website performance, focusing on speed optimization and scalability. It will include sections on optimizing front-end resources (CSS, JavaScript, images), server-side strategies (caching, compression), and database optimization. The guide will also discuss scaling solutions for handling high traffic, such as load balancing, CDN integration, and cloud hosting strategies.</p>
+        </article>
+        <ul id="list">
+          <li>Introduction</li>
+          <li>Front-End Optimization</li>
+          <li>Server-side Optimization</li>
+          <li>Scalability Considerations</li>
+          <li>Monitoring and Testing</li>
+          <li>Conclusion</li>
+        </ul>
+      </section>
+      <section class="main-section" id="Introduction">
+        <header><strong>Introduction</strong></header>
+        <article>
+          <p>Website performance is a critical factor in the success of any online platform. Users expect web pages to load quickly, and a slow experience can lead to increased bounce rates, lower search rankings, and ultimately, lost revenue.</p>
+          <p>Studies show that a delay of even one second in page load time can lead to a significant drop in user engagement and satisfaction. In today’s competitive digital landscape, delivering a fast and smooth user experience is no longer optional—it’s essential.</p>
+          <p>Additionally, website performance directly affects SEO. Google uses page speed as a ranking factor, meaning that faster websites are more likely to appear at the top of search results. Beyond speed, scalability is a growing concern for websites that anticipate rapid growth.</p>
+        </article>
+      </section>
+      <section class="main-section" id="Front-End_Optimization">
+        <header><strong>Front-End Optimization</strong></header>
+        <article>
+          <p>One of the most effective ways to improve front-end performance is by <code>minification</code> and compressing files.</p>
+          <p>Consider using <code>lazy loading</code> for images and videos. This dramatically improves initial page load times.</p>
+        </article>
+      </section>
+      <section class="main-section" id="Server-Side_Optimization">
+        <header><strong>Server-Side Optimization</strong></header>
+        <article>
+          <p>Implementing <code>Gzip</code> compression or Brotli compression can reduce the size of files sent from the server, speeding up transfer.</p>
+          <p>Database optimization is equally important, especially reducing <code>Time to First Byte (TTFB)</code> to ensure a quick site load.</p>
+        </article>
+      </section>
+      <section class="main-section" id="Scalability_Considerations">
+        <header><strong>Scalability Considerations</strong></header>
+        <article>
+          <p>In modern cloud environments, <code>auto-scaling</code> solutions can dynamically adjust resources based on demand, ensuring your site can handle traffic spikes.</p>
+        </article>
+      </section>
+      <section class="main-section" id="Monitoring_and_Testing">
+        <header><strong>Monitoring and Testing</strong></header>
+        <article>
+          <p>Tools like Google Lighthouse, GTmetrix, and WebPageTest provide comprehensive reports on your website’s speed and responsiveness.</p>
+          <p>Beyond initial testing, continuous performance monitoring is crucial for long-term success. Tools like New Relic, Datadog, or Pingdom provide real-time data on your website’s performance.</p>
+        </article>
+      </section>
+      <section class="main-section" id="Conclusion">
+        <header><strong>Conclusion</strong></header>
+        <article>
+          <p>In conclusion, optimizing website performance involves front-end, server-side, and scalability strategies.</p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+html{
+  min-width: 250px;
+  background-color: beige;
+  line-hieght: 1.5;
+  padding-left: 250px;
+}
+
+header{
+  font-size: 24;
+  padding-top: 25px;
+  paddding-bottom: 25px;
+}
+
+
+section articles{
+  margin: 15px;
+  font-size: 1em;
+}
+
+ul{
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px
+  unicode-bidi: isolate;
+
+}
+
+@media (max-width: 600px) {
+  #navbar {
+    width: 
+    height: auto; 
+    position: relative; 
+  }
+
+  #main-doc {
+    margin-left: 0; 
+  }
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px; 
+  height: 100%;
+  background-color: #f4f4f4; 
+  padding: 10px;
+}
+
+code{
+  background-color: yellow;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+** end of undefined **
+
