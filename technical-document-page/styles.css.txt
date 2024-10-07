@@ -1,0 +1,62 @@
+
+html{
+  min-width: 250px;
+  background-color: beige;
+  line-hieght: 1.5;
+  padding-left: 250px;
+}
+
+header{
+  font-size: 24;
+  padding-top: 25px;
+  paddding-bottom: 25px;
+}
+
+
+section articles{
+  margin: 15px;
+  font-size: 1em;
+}
+
+ul{
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px
+  unicode-bidi: isolate;
+
+}
+
+@media (max-width: 600px) {
+  #navbar {
+    width: 
+    height: auto; 
+    position: relative; 
+  }
+
+  #main-doc {
+    margin-left: 0; 
+  }
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px; 
+  height: 100%;
+  background-color: #f4f4f4; 
+  padding: 10px;
+}
+
+code{
+  background-color: yellow;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+
